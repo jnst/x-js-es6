@@ -1,9 +1,9 @@
-'use strict'
+'use strict';
 
 const moment = require('moment');
 
-const apple = require('./apple');
-const logger = require('./logger');
+const apple = require('./lib/apple');
+const logger = require('./lib/logger');
 
 logger.info('start..');
 setInterval(() => {
