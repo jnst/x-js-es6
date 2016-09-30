@@ -2,8 +2,12 @@
   "name": "x-js-es6",
   "version": "0.0.1",
   "description": "example javascript for es6",
+  "engines": {
+    "node": ">=6.6.0"
+  },
   "main": "index.js",
   "scripts": {
+    "start": "DEBUG=app:* node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +19,15 @@
   "bugs": {
     "url": "https://github.com/jnst/x-js-es6/issues"
   },
-  "homepage": "https://github.com/jnst/x-js-es6"
+  "homepage": "https://github.com/jnst/x-js-es6",
+  "devDependencies": {
+    "bunyan": "^1.8.1",
+    "debug": "^2.2.0",
+    "eslint": "^3.6.1",
+    "eslint-plugin-promise": "^2.0.1",
+    "lodash": "^4.16.2",
+    "moment": "^2.15.1",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1"
+  }
 }
