@@ -6,6 +6,7 @@ const apple = require('./lib/apple');
 const logger = require('./lib/logger');
 
 logger.info('start..');
+apple.scan();
 setInterval(() => {
   apple.scan();
   logger.info(moment().format('YYYY-MM-DD HH:mm:ss'));
