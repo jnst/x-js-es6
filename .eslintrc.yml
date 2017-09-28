@@ -23,6 +23,7 @@ rules:
   no-confusing-arrow:
     - error
     - allowParens: true
+  no-console: off
   no-constant-condition:
     - error
     - checkLoops: false
@@ -31,7 +32,6 @@ rules:
   prefer-template: error
   promise/param-names: error
   promise/always-return: error
-  promise/always-catch: error
   promise/catch-or-return: error
   promise/no-native: off
   quote-props:

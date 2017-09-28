@@ -27,6 +27,7 @@
     "mocha": "^3.1.0"
   },
   "dependencies": {
+    "co": "^4.6.0",
     "debug": "^3.1.0",
     "lodash": "^4.16.2",
     "moment": "^2.15.1",
